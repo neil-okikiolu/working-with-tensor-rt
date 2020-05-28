@@ -1,23 +1,12 @@
-Existing Models
-===============
+Code accompanying my blog posts "working with tensor rt" and "drawing with cuda"
 
-Image Net
-==========
-GoogleNet
-ResNet-18
+This code was created as I was learning how to load models of any type, bind to their Input/Output layers
+and then draw the results using the GPU.
 
-Detect Net
-==========
-SSD-Mobilenet-v2
-PedNet
-FaceNet
-DetectNet-COCO-Dog
+This code was made to be run as a ROS node in C++.
 
-Segnet Net
-==========
-FCN-ResNet18-Cityscapes-512x256
-FCN-ResNet18-Cityscapes-1024x512
-FCN-ResNet18-DeepScene-576x320
-FCN-ResNet18-MHP-512x320
-FCN-ResNet18-Pascal-VOC-320x320
-FCN-ResNet18-SUN-RGBD-512x400
+This code was made by converting 2 posenet models I found on Nvidia's TRT Pose Repo for python here: https://github.com/NVIDIA-AI-IOT/trt_pose
+
+You can adapt this code for your purposes.
+
+If you do something cool, please let me know.
