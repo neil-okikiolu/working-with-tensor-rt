@@ -1,17 +1,3 @@
-/**
-* This node takes images from the jetson camera (using a ros driver node)
-* and saves it to disk, for now...
-********************** IMPORTANT **********************
-READ https://github.com/dusty-nv/jetson-inference for notes on Model performance
-and image size parameters, etc
-********************** IMPORTANT **********************
-
-********************** IN-PROGRESS ********************
-NEED 2 Camera Images at a time to
-construct a 3D representation
-********************** IN-PROGRESS ********************
-*/
-
 
 #include <ros/ros.h>
 
